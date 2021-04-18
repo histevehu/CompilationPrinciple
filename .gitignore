@@ -31,17 +31,20 @@
 *.out
 *.app
 
-#IDE
-.vs/
-.vscode/
+# IDE
 Debug/
 Release/
-
-作业/
-*.DOC
+.vs/
+.vscode/
+*.ncb
 *.plg
 *.opt
 *.sln
 *.vcxproj
 *.filters
 *.user
+
+# User
+作业/
+*.DOC
+
