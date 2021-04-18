@@ -36,3 +36,12 @@
 .vscode/
 Debug/
 Release/
+
+作业/
+*.DOC
+*.plg
+*.opt
+*.sln
+*.vcxproj
+*.filters
+*.user

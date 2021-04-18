@@ -135,7 +135,6 @@ WORDNODE* WordAnalysis(char c[])
 	WORDNODE* pHeader = (WORDNODE*)malloc(sizeof(WORDNODE));
 	pHeader->pNext = NULL;
 	WORDNODE* pTail = pHeader, * pNode = NULL;
-
 	// 词法分析
 	for (int nCur = 0; c[nCur] != '\0'; )
 	{
